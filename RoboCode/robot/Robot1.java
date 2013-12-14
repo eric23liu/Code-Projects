@@ -22,9 +22,8 @@ public class Robot1 extends AdvancedRobot
 		
 		if (changeInEnergy>0 &&	changeInEnergy<=3) {
 			// Dodge
-			movementDirection =
-				-movementDirection;
-				setAhead((e.getDistance()/4+25)movementDirection);
+			movementDirection = -movementDirection;
+				setAhead((e.getDistance()/4+25)*movementDirection);
 		}
 	
 		// Swppe gunand radar when an enemy is spotted
