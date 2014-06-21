@@ -65,7 +65,7 @@ int main ( int argc, char **argv ) {
     if (argc > 1){
         if (argv[1] == "all") {
             promiscuous_mode = 1;
-        } (else if argv[1] == "help") {
+        } else if (argv[1] == "help") {
             printf("HELP SECTION GOES HERE\n");
         }
     }
