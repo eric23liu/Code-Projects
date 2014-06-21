@@ -4,7 +4,7 @@
 *  Uses libpcap library (required to compile)
 *
 *  To compile, execute in terminal:
-*      gcc simple_pcap.c -lpcap -o simple_pcap
+*      gcc pcap.cpp -lpcap -o pcap
 *
 *  To run, execute:
 *      ./pcap
